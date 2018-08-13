@@ -1,0 +1,25 @@
+body{
+  font: 14px "Century-gothic" ,Futura,sans-serif;
+}
+
+li{list-style-type:none; }
+
+.bl-menu{
+  position: absolute;
+}
+.bl-menu ul{
+  display: flex;
+  padding: 0
+
+}
+
+.bl-menu ul li a{
+  padding: 15px;
+  color:white;
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
