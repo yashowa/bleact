@@ -5,8 +5,7 @@ class Header extends React.Component{
   render(){
     return(
     <header>
-    <div><img className='banner' src="banner-home.jpg"/></div>
-      <nav class='bl-menu'>
+      <nav className='bl-menu'>
         <ul>
           <li><a>home</a></li>
           <li><a>contact</a></li>
@@ -14,7 +13,9 @@ class Header extends React.Component{
           <li><a>prestations</a></li>
         </ul>
       </nav>
+    <div className="banner-home wrapper"></div>
+
     </header>
   )}
 }
-export default Header
+export default Header;

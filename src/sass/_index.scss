@@ -1,0 +1,26 @@
+body{
+  font: 14px "Century-gothic" ,Futura,sans-serif;
+
+}
+
+.wrapper-home{
+  width: 1200px;
+  margin: 0 auto;
+}
+li{list-style-type:none; }
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper{
+  background: url("../img/banner-home.jpg")no-repeat center center/cover;
+//  min-height: 100vh;
+
+}
+
+.bl-posts{
+  min-height: 50vh
+}

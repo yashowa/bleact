@@ -1,0 +1,54 @@
+.bl-menu {
+  position: absolute; }
+
+.bl-menu ul {
+  display: flex;
+  padding: 0; }
+
+.bl-menu ul li a {
+  padding: 15px;
+  color: white;
+  font-size: 2rem; }
+
+.lo {
+  background: red;
+  width: 100%;
+  height: 40vh; }
+
+.banner-home {
+  width: 100%;
+  background: linear-gradient(gray, transparent);
+  height: 50vh;
+  text-align: center;
+  margin: 0 auto; }
+
+footer {
+  display: block;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  text-align: center; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+
+body {
+  font: 14px "Century-gothic" ,Futura,sans-serif; }
+
+.wrapper-home {
+  width: 1200px;
+  margin: 0 auto; }
+
+li {
+  list-style-type: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.wrapper {
+  background: url("../img/banner-home.jpg") no-repeat center center/cover; }
+
+.bl-posts {
+  min-height: 50vh; }
